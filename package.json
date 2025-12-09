@@ -1,15 +1,28 @@
 {
-  "name": "discord-tiktok-bot",
-  "version": "1.0.0",
+  "name": "tiktok-username-bot",
+  "version": "2.0.0",
+  "description": "Discord bot pentru schimbarea username-ului TikTok folosind session ID",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "discord",
+    "bot",
+    "tiktok",
+    "username",
+    "api"
+  ],
+  "author": "Don Patron",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^14.14.1",
-    "node-fetch": "^3.3.2",
-    "crypto-js": "^4.2.0",
     "fs-extra": "^11.2.0",
-    "express": "^4.19.2"
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
